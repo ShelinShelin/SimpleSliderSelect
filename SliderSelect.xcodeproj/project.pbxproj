@@ -1,0 +1,549 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FD4378301C279E14002966D7 /* FullSizeRender.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FD43782F1C279E14002966D7 /* FullSizeRender.jpg */; };
+		FDB2F16B1C23E7E3000D59CB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FDB2F16A1C23E7E3000D59CB /* main.m */; };
+		FDB2F16E1C23E7E3000D59CB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FDB2F16D1C23E7E3000D59CB /* AppDelegate.m */; };
+		FDB2F1711C23E7E3000D59CB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FDB2F1701C23E7E3000D59CB /* ViewController.m */; };
+		FDB2F1741C23E7E3000D59CB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDB2F1721C23E7E3000D59CB /* Main.storyboard */; };
+		FDB2F1761C23E7E3000D59CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDB2F1751C23E7E3000D59CB /* Assets.xcassets */; };
+		FDB2F1791C23E7E3000D59CB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDB2F1771C23E7E3000D59CB /* LaunchScreen.storyboard */; };
+		FDB2F1841C23E7E4000D59CB /* SliderSelectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FDB2F1831C23E7E4000D59CB /* SliderSelectTests.m */; };
+		FDB2F18F1C23E7E4000D59CB /* SliderSelectUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FDB2F18E1C23E7E4000D59CB /* SliderSelectUITests.m */; };
+		FDC4F3E91C2A52EA000BC48B /* HorizontalSliderView.m in Sources */ = {isa = PBXBuildFile; fileRef = FDC4F3DD1C2A52EA000BC48B /* HorizontalSliderView.m */; };
+		FDC4F3EE1C2A52EA000BC48B /* VerticalSliderView.m in Sources */ = {isa = PBXBuildFile; fileRef = FDC4F3E81C2A52EA000BC48B /* VerticalSliderView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FDB2F1801C23E7E4000D59CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FDB2F15E1C23E7E3000D59CB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FDB2F1651C23E7E3000D59CB;
+			remoteInfo = SliderSelect;
+		};
+		FDB2F18B1C23E7E4000D59CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FDB2F15E1C23E7E3000D59CB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FDB2F1651C23E7E3000D59CB;
+			remoteInfo = SliderSelect;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FD43782F1C279E14002966D7 /* FullSizeRender.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = FullSizeRender.jpg; sourceTree = "<group>"; };
+		FDB2F1661C23E7E3000D59CB /* SliderSelect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SliderSelect.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDB2F16A1C23E7E3000D59CB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FDB2F16C1C23E7E3000D59CB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FDB2F16D1C23E7E3000D59CB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FDB2F16F1C23E7E3000D59CB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FDB2F1701C23E7E3000D59CB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FDB2F1731C23E7E3000D59CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FDB2F1751C23E7E3000D59CB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FDB2F1781C23E7E3000D59CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FDB2F17A1C23E7E3000D59CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDB2F17F1C23E7E4000D59CB /* SliderSelectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SliderSelectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDB2F1831C23E7E4000D59CB /* SliderSelectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SliderSelectTests.m; sourceTree = "<group>"; };
+		FDB2F1851C23E7E4000D59CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDB2F18A1C23E7E4000D59CB /* SliderSelectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SliderSelectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDB2F18E1C23E7E4000D59CB /* SliderSelectUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SliderSelectUITests.m; sourceTree = "<group>"; };
+		FDB2F1901C23E7E4000D59CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDC4F3DC1C2A52EA000BC48B /* HorizontalSliderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HorizontalSliderView.h; sourceTree = "<group>"; };
+		FDC4F3DD1C2A52EA000BC48B /* HorizontalSliderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HorizontalSliderView.m; sourceTree = "<group>"; };
+		FDC4F3E71C2A52EA000BC48B /* VerticalSliderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VerticalSliderView.h; sourceTree = "<group>"; };
+		FDC4F3E81C2A52EA000BC48B /* VerticalSliderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VerticalSliderView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FDB2F1631C23E7E3000D59CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDB2F17C1C23E7E4000D59CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDB2F1871C23E7E4000D59CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FDB2F15D1C23E7E3000D59CB = {
+			isa = PBXGroup;
+			children = (
+				FDB2F1681C23E7E3000D59CB /* SliderSelect */,
+				FDB2F1821C23E7E4000D59CB /* SliderSelectTests */,
+				FDB2F18D1C23E7E4000D59CB /* SliderSelectUITests */,
+				FDB2F1671C23E7E3000D59CB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FDB2F1671C23E7E3000D59CB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FDB2F1661C23E7E3000D59CB /* SliderSelect.app */,
+				FDB2F17F1C23E7E4000D59CB /* SliderSelectTests.xctest */,
+				FDB2F18A1C23E7E4000D59CB /* SliderSelectUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FDB2F1681C23E7E3000D59CB /* SliderSelect */ = {
+			isa = PBXGroup;
+			children = (
+				FDC4F3DB1C2A52EA000BC48B /* Tools */,
+				FD43782F1C279E14002966D7 /* FullSizeRender.jpg */,
+				FDB2F16C1C23E7E3000D59CB /* AppDelegate.h */,
+				FDB2F16D1C23E7E3000D59CB /* AppDelegate.m */,
+				FDB2F16F1C23E7E3000D59CB /* ViewController.h */,
+				FDB2F1701C23E7E3000D59CB /* ViewController.m */,
+				FDB2F1721C23E7E3000D59CB /* Main.storyboard */,
+				FDB2F1751C23E7E3000D59CB /* Assets.xcassets */,
+				FDB2F1771C23E7E3000D59CB /* LaunchScreen.storyboard */,
+				FDB2F17A1C23E7E3000D59CB /* Info.plist */,
+				FDB2F1691C23E7E3000D59CB /* Supporting Files */,
+			);
+			path = SliderSelect;
+			sourceTree = "<group>";
+		};
+		FDB2F1691C23E7E3000D59CB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FDB2F16A1C23E7E3000D59CB /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FDB2F1821C23E7E4000D59CB /* SliderSelectTests */ = {
+			isa = PBXGroup;
+			children = (
+				FDB2F1831C23E7E4000D59CB /* SliderSelectTests.m */,
+				FDB2F1851C23E7E4000D59CB /* Info.plist */,
+			);
+			path = SliderSelectTests;
+			sourceTree = "<group>";
+		};
+		FDB2F18D1C23E7E4000D59CB /* SliderSelectUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FDB2F18E1C23E7E4000D59CB /* SliderSelectUITests.m */,
+				FDB2F1901C23E7E4000D59CB /* Info.plist */,
+			);
+			path = SliderSelectUITests;
+			sourceTree = "<group>";
+		};
+		FDC4F3DB1C2A52EA000BC48B /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				FDC4F3DC1C2A52EA000BC48B /* HorizontalSliderView.h */,
+				FDC4F3DD1C2A52EA000BC48B /* HorizontalSliderView.m */,
+				FDC4F3E71C2A52EA000BC48B /* VerticalSliderView.h */,
+				FDC4F3E81C2A52EA000BC48B /* VerticalSliderView.m */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FDB2F1651C23E7E3000D59CB /* SliderSelect */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDB2F1931C23E7E4000D59CB /* Build configuration list for PBXNativeTarget "SliderSelect" */;
+			buildPhases = (
+				FDB2F1621C23E7E3000D59CB /* Sources */,
+				FDB2F1631C23E7E3000D59CB /* Frameworks */,
+				FDB2F1641C23E7E3000D59CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SliderSelect;
+			productName = SliderSelect;
+			productReference = FDB2F1661C23E7E3000D59CB /* SliderSelect.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FDB2F17E1C23E7E4000D59CB /* SliderSelectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDB2F1961C23E7E4000D59CB /* Build configuration list for PBXNativeTarget "SliderSelectTests" */;
+			buildPhases = (
+				FDB2F17B1C23E7E4000D59CB /* Sources */,
+				FDB2F17C1C23E7E4000D59CB /* Frameworks */,
+				FDB2F17D1C23E7E4000D59CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FDB2F1811C23E7E4000D59CB /* PBXTargetDependency */,
+			);
+			name = SliderSelectTests;
+			productName = SliderSelectTests;
+			productReference = FDB2F17F1C23E7E4000D59CB /* SliderSelectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FDB2F1891C23E7E4000D59CB /* SliderSelectUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDB2F1991C23E7E4000D59CB /* Build configuration list for PBXNativeTarget "SliderSelectUITests" */;
+			buildPhases = (
+				FDB2F1861C23E7E4000D59CB /* Sources */,
+				FDB2F1871C23E7E4000D59CB /* Frameworks */,
+				FDB2F1881C23E7E4000D59CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FDB2F18C1C23E7E4000D59CB /* PBXTargetDependency */,
+			);
+			name = SliderSelectUITests;
+			productName = SliderSelectUITests;
+			productReference = FDB2F18A1C23E7E4000D59CB /* SliderSelectUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FDB2F15E1C23E7E3000D59CB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = GreatGate;
+				TargetAttributes = {
+					FDB2F1651C23E7E3000D59CB = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = 6J2XGE456D;
+					};
+					FDB2F17E1C23E7E4000D59CB = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = 6J2XGE456D;
+						TestTargetID = FDB2F1651C23E7E3000D59CB;
+					};
+					FDB2F1891C23E7E4000D59CB = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = 6J2XGE456D;
+						TestTargetID = FDB2F1651C23E7E3000D59CB;
+					};
+				};
+			};
+			buildConfigurationList = FDB2F1611C23E7E3000D59CB /* Build configuration list for PBXProject "SliderSelect" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FDB2F15D1C23E7E3000D59CB;
+			productRefGroup = FDB2F1671C23E7E3000D59CB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FDB2F1651C23E7E3000D59CB /* SliderSelect */,
+				FDB2F17E1C23E7E4000D59CB /* SliderSelectTests */,
+				FDB2F1891C23E7E4000D59CB /* SliderSelectUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FDB2F1641C23E7E3000D59CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDB2F1791C23E7E3000D59CB /* LaunchScreen.storyboard in Resources */,
+				FDB2F1761C23E7E3000D59CB /* Assets.xcassets in Resources */,
+				FDB2F1741C23E7E3000D59CB /* Main.storyboard in Resources */,
+				FD4378301C279E14002966D7 /* FullSizeRender.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDB2F17D1C23E7E4000D59CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDB2F1881C23E7E4000D59CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FDB2F1621C23E7E3000D59CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDB2F1711C23E7E3000D59CB /* ViewController.m in Sources */,
+				FDC4F3E91C2A52EA000BC48B /* HorizontalSliderView.m in Sources */,
+				FDC4F3EE1C2A52EA000BC48B /* VerticalSliderView.m in Sources */,
+				FDB2F16E1C23E7E3000D59CB /* AppDelegate.m in Sources */,
+				FDB2F16B1C23E7E3000D59CB /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDB2F17B1C23E7E4000D59CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDB2F1841C23E7E4000D59CB /* SliderSelectTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDB2F1861C23E7E4000D59CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDB2F18F1C23E7E4000D59CB /* SliderSelectUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FDB2F1811C23E7E4000D59CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FDB2F1651C23E7E3000D59CB /* SliderSelect */;
+			targetProxy = FDB2F1801C23E7E4000D59CB /* PBXContainerItemProxy */;
+		};
+		FDB2F18C1C23E7E4000D59CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FDB2F1651C23E7E3000D59CB /* SliderSelect */;
+			targetProxy = FDB2F18B1C23E7E4000D59CB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FDB2F1721C23E7E3000D59CB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FDB2F1731C23E7E3000D59CB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FDB2F1771C23E7E3000D59CB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FDB2F1781C23E7E3000D59CB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FDB2F1911C23E7E4000D59CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FDB2F1921C23E7E4000D59CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FDB2F1941C23E7E4000D59CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SliderSelect/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.happypool.SliderSelect;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FDB2F1951C23E7E4000D59CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SliderSelect/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.happypool.SliderSelect;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FDB2F1971C23E7E4000D59CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SliderSelectTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.happypool.SliderSelectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SliderSelect.app/SliderSelect";
+			};
+			name = Debug;
+		};
+		FDB2F1981C23E7E4000D59CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SliderSelectTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.happypool.SliderSelectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SliderSelect.app/SliderSelect";
+			};
+			name = Release;
+		};
+		FDB2F19A1C23E7E4000D59CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SliderSelectUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.happypool.SliderSelectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SliderSelect;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		FDB2F19B1C23E7E4000D59CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SliderSelectUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.happypool.SliderSelectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SliderSelect;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FDB2F1611C23E7E3000D59CB /* Build configuration list for PBXProject "SliderSelect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDB2F1911C23E7E4000D59CB /* Debug */,
+				FDB2F1921C23E7E4000D59CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDB2F1931C23E7E4000D59CB /* Build configuration list for PBXNativeTarget "SliderSelect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDB2F1941C23E7E4000D59CB /* Debug */,
+				FDB2F1951C23E7E4000D59CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDB2F1961C23E7E4000D59CB /* Build configuration list for PBXNativeTarget "SliderSelectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDB2F1971C23E7E4000D59CB /* Debug */,
+				FDB2F1981C23E7E4000D59CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDB2F1991C23E7E4000D59CB /* Build configuration list for PBXNativeTarget "SliderSelectUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDB2F19A1C23E7E4000D59CB /* Debug */,
+				FDB2F19B1C23E7E4000D59CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FDB2F15E1C23E7E3000D59CB /* Project object */;
+}
